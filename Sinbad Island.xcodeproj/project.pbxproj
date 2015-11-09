@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECB0DA71BEBB03500CA95F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB0DA61BEBB03500CA95F8 /* AppDelegate.swift */; };
+		3ECB0DA91BEBB03500CA95F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB0DA81BEBB03500CA95F8 /* ViewController.swift */; };
+		3ECB0DAC1BEBB03500CA95F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB0DAA1BEBB03500CA95F8 /* Main.storyboard */; };
+		3ECB0DAE1BEBB03500CA95F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB0DAD1BEBB03500CA95F8 /* Images.xcassets */; };
+		3ECB0DB11BEBB03500CA95F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ECB0DAF1BEBB03500CA95F8 /* LaunchScreen.xib */; };
+		3ECB0DBD1BEBB03600CA95F8 /* Sinbad_IslandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECB0DBC1BEBB03600CA95F8 /* Sinbad_IslandTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ECB0DB71BEBB03600CA95F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ECB0D991BEBB03400CA95F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECB0DA01BEBB03400CA95F8;
+			remoteInfo = "Sinbad Island";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECB0DA11BEBB03400CA95F8 /* Sinbad Island.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sinbad Island.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECB0DA51BEBB03500CA95F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB0DA61BEBB03500CA95F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ECB0DA81BEBB03500CA95F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ECB0DAB1BEBB03500CA95F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECB0DAD1BEBB03500CA95F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ECB0DB01BEBB03500CA95F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3ECB0DB61BEBB03600CA95F8 /* Sinbad IslandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sinbad IslandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECB0DBB1BEBB03600CA95F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ECB0DBC1BEBB03600CA95F8 /* Sinbad_IslandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinbad_IslandTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECB0D9E1BEBB03400CA95F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB0DB31BEBB03600CA95F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECB0D981BEBB03400CA95F8 = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DA31BEBB03400CA95F8 /* Sinbad Island */,
+				3ECB0DB91BEBB03600CA95F8 /* Sinbad IslandTests */,
+				3ECB0DA21BEBB03400CA95F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECB0DA21BEBB03400CA95F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DA11BEBB03400CA95F8 /* Sinbad Island.app */,
+				3ECB0DB61BEBB03600CA95F8 /* Sinbad IslandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECB0DA31BEBB03400CA95F8 /* Sinbad Island */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DA61BEBB03500CA95F8 /* AppDelegate.swift */,
+				3ECB0DA81BEBB03500CA95F8 /* ViewController.swift */,
+				3ECB0DAA1BEBB03500CA95F8 /* Main.storyboard */,
+				3ECB0DAD1BEBB03500CA95F8 /* Images.xcassets */,
+				3ECB0DAF1BEBB03500CA95F8 /* LaunchScreen.xib */,
+				3ECB0DA41BEBB03500CA95F8 /* Supporting Files */,
+			);
+			path = "Sinbad Island";
+			sourceTree = "<group>";
+		};
+		3ECB0DA41BEBB03500CA95F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DA51BEBB03500CA95F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ECB0DB91BEBB03600CA95F8 /* Sinbad IslandTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DBC1BEBB03600CA95F8 /* Sinbad_IslandTests.swift */,
+				3ECB0DBA1BEBB03600CA95F8 /* Supporting Files */,
+			);
+			path = "Sinbad IslandTests";
+			sourceTree = "<group>";
+		};
+		3ECB0DBA1BEBB03600CA95F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ECB0DBB1BEBB03600CA95F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECB0DA01BEBB03400CA95F8 /* Sinbad Island */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB0DC01BEBB03600CA95F8 /* Build configuration list for PBXNativeTarget "Sinbad Island" */;
+			buildPhases = (
+				3ECB0D9D1BEBB03400CA95F8 /* Sources */,
+				3ECB0D9E1BEBB03400CA95F8 /* Frameworks */,
+				3ECB0D9F1BEBB03400CA95F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sinbad Island";
+			productName = "Sinbad Island";
+			productReference = 3ECB0DA11BEBB03400CA95F8 /* Sinbad Island.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ECB0DB51BEBB03600CA95F8 /* Sinbad IslandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB0DC31BEBB03600CA95F8 /* Build configuration list for PBXNativeTarget "Sinbad IslandTests" */;
+			buildPhases = (
+				3ECB0DB21BEBB03600CA95F8 /* Sources */,
+				3ECB0DB31BEBB03600CA95F8 /* Frameworks */,
+				3ECB0DB41BEBB03600CA95F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ECB0DB81BEBB03600CA95F8 /* PBXTargetDependency */,
+			);
+			name = "Sinbad IslandTests";
+			productName = "Sinbad IslandTests";
+			productReference = 3ECB0DB61BEBB03600CA95F8 /* Sinbad IslandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECB0D991BEBB03400CA95F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = iyography;
+				TargetAttributes = {
+					3ECB0DA01BEBB03400CA95F8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3ECB0DB51BEBB03600CA95F8 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3ECB0DA01BEBB03400CA95F8;
+					};
+				};
+			};
+			buildConfigurationList = 3ECB0D9C1BEBB03400CA95F8 /* Build configuration list for PBXProject "Sinbad Island" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECB0D981BEBB03400CA95F8;
+			productRefGroup = 3ECB0DA21BEBB03400CA95F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECB0DA01BEBB03400CA95F8 /* Sinbad Island */,
+				3ECB0DB51BEBB03600CA95F8 /* Sinbad IslandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECB0D9F1BEBB03400CA95F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB0DAC1BEBB03500CA95F8 /* Main.storyboard in Resources */,
+				3ECB0DB11BEBB03500CA95F8 /* LaunchScreen.xib in Resources */,
+				3ECB0DAE1BEBB03500CA95F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB0DB41BEBB03600CA95F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECB0D9D1BEBB03400CA95F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB0DA91BEBB03500CA95F8 /* ViewController.swift in Sources */,
+				3ECB0DA71BEBB03500CA95F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ECB0DB21BEBB03600CA95F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECB0DBD1BEBB03600CA95F8 /* Sinbad_IslandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ECB0DB81BEBB03600CA95F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ECB0DA01BEBB03400CA95F8 /* Sinbad Island */;
+			targetProxy = 3ECB0DB71BEBB03600CA95F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ECB0DAA1BEBB03500CA95F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECB0DAB1BEBB03500CA95F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ECB0DAF1BEBB03500CA95F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ECB0DB01BEBB03500CA95F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ECB0DBE1BEBB03600CA95F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECB0DBF1BEBB03600CA95F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECB0DC11BEBB03600CA95F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sinbad Island/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ECB0DC21BEBB03600CA95F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sinbad Island/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ECB0DC41BEBB03600CA95F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sinbad IslandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinbad Island.app/Sinbad Island";
+			};
+			name = Debug;
+		};
+		3ECB0DC51BEBB03600CA95F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sinbad IslandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinbad Island.app/Sinbad Island";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECB0D9C1BEBB03400CA95F8 /* Build configuration list for PBXProject "Sinbad Island" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB0DBE1BEBB03600CA95F8 /* Debug */,
+				3ECB0DBF1BEBB03600CA95F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB0DC01BEBB03600CA95F8 /* Build configuration list for PBXNativeTarget "Sinbad Island" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB0DC11BEBB03600CA95F8 /* Debug */,
+				3ECB0DC21BEBB03600CA95F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB0DC31BEBB03600CA95F8 /* Build configuration list for PBXNativeTarget "Sinbad IslandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECB0DC41BEBB03600CA95F8 /* Debug */,
+				3ECB0DC51BEBB03600CA95F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECB0D991BEBB03400CA95F8 /* Project object */;
+}
